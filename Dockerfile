@@ -1,4 +1,4 @@
-FROM  openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk-alpine
 COPY target/docker-jenkins.jar  /usr/app
 WORKDIR /use/app
 EXPOSE 8080
