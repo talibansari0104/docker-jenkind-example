@@ -1,4 +1,4 @@
-FROM openjdk-17
+FROM openjdk:17
 COPY target/docker-jenkins.jar  /usr/app
 WORKDIR /use/app
 EXPOSE 8080
